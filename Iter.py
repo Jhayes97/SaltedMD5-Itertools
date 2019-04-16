@@ -15,4 +15,4 @@ for password_length in range(1,6):
         print fullHash ,iteration
         if fullHash.lower() == hashedPass:
             print "The password is: " + iteration
-            exit(1)
+            exit(0)
